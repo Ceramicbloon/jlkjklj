@@ -8,7 +8,7 @@ import Instagram from './in';
 const Tab = createBottomTabNavigator()
 export default class BottomTab extends React.Component {
     render() {
-        return (<View >
+        return (
       
             <NavigationContainer>
                 <Tab.Navigator>
@@ -16,6 +16,6 @@ export default class BottomTab extends React.Component {
                     <Tab.Screen name="instagram" component={Instagram} />
                 </Tab.Navigator>
             </NavigationContainer>
-        </View>)
+        )
     }
 }
